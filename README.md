@@ -12,26 +12,26 @@ Options available:
 ### Overview
 
 <div align="center">
-<img width="20%" src="./images/top.png">
-<img width="20%" src="./images/bottom.png">
+<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top.png">
+<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom.png">
 </div>
 
 ### Photos
 <table>
 <tr>
 <td width="50%">
-<img src="./images/top_case.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_case.jpg">
 </td>
 <td>
-<img src="./images/back_case.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_case.jpg">
 </td>
 </tr>
 <tr>
 <td width="50%">
-<img src="./images/top_pcb.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb.jpg">
 </td>
 <td>
-<img src="./images/back_pcb.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_pcb.jpg">
 </td>
 </tr>
 </table>
@@ -41,13 +41,13 @@ Options available:
 
 
 ### Schematic
-<div align="center"><img width="90%" src="./hardware/Schematic_ZigUSB.png"></div>
+<div align="center"><img width="90%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Schematic_ZigUSB.png"></div>
 
 
 
 
 ### PTVO Config 
-<div align="center"><img width="70%" src="./images/ptvo_1.png"></div>
+<div align="center"><img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/ptvo_1.png"></div>
 
 #### zigbee2mqtt & Home Assistant overview
 
@@ -59,23 +59,23 @@ Options available:
 <table>
 <tbody>
 <tr>
-<td><img width="50%" src="./images/z2m_device.png"></td>
-<td rowspan="2"><img src="./images/ha.png"></td>
+<td><img width="50%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/z2m_device.png"></td>
+<td rowspan="2"><img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/ha.png"></td>
 </tr>
 <tr>
-<td><img width="70%" src="./images/z2m_exposes.png"></td>
+<td><img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/z2m_exposes.png"></td>
 </tr>
 </tbody>
 </table>
 
 ### Hardware files
-[Gerber](./hardware/Gerber_ZigUSB.zip)  
-[BOM](./hardware/BOM_ZigUSB.csv)  
+[Gerber](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Gerber_ZigUSB.zip)  
+[BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB.csv)  
 
 ### Firmware files
-[FW .hex and converter .js files](https://github.com/xyzroe/ZigUSB/releases)  
-[PTVO .ini file](./firmware/ZigUSB.ini)  
-[PTVO .txt file](./firmware/ZigUSB.txt)  
+[FW .hex and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
+[PTVO .ini file](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/firmware/ZigUSB.ini)  
+[PTVO .txt file](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/firmware/ZigUSB.txt)  
 
 ### Where to buy?
 
@@ -99,4 +99,4 @@ Options available:
 <br>  
 ZigUSB is licensed under the
 
-[GNU General Public License v3.0](./LICENSE)
+[GNU General Public License v3.0](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/LICENSE)
