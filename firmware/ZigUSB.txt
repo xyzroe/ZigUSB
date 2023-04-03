@@ -1,0 +1,19 @@
+Board type: CC2530 + CC2592
+Device type: Router
+ Transmit enable (TXEN): P12, Receive enable (RXEN): P14
+Manufacturer name: xyzroe.cc
+Model ID: ZigUSB
+Update firmware's timestamp : 2023-04-01
+Disable resetting of a device by a power on/off cycle: Yes
+Status LED: P16, Sending reports
+Set default reporting interval (s): 30
+
+Output pins:
+P17: Output 1, GPIO, Pull-up (Role: Generic), Remember state
+P14: Output 2, TI INA219, Pull-up (Address (dec): 64, Resolution: 32V, 2A)
+P15: Output 3, I2C SCL/SPI CLK, Pull-up
+P36: Output 4, Internal temperature
+P37: Output 5, Uptime (sec)
+
+Input pins:
+P20: Input 1, GPIO, Pull-up, Link to out 1 (Bind command: On/Off)
