@@ -1,19 +1,18 @@
 ZigUSB was developed as a device that allows you to control and monitor the power of a device connected via USB.
 
-Using this device, you can remotely control the power of the USB port to turn on or off another device over Zigbee network.
+Using this device, you can remotely control the power of the USB port to turn on or off the connected device. And also monitor the current voltage and current. And it's not a bad Zigbee network router.
 
-The most common application is the conversion of a "stupid" USB lamp into a "smart" one.
+Frequent use cases: converting a "stupid" USB lamp into a "smart" one; connecting modems / sticks / adapters, which sometimes require a power reset; monitoring the current consumption of any connected device.
 
-Options available: 
-- Power on/off at the push of a button and via Zigbee network.
-- Automatic restart cycle of the connected device using one Zigbee command. 
-- Monitoring of voltage and current supplied to the connected device. 
-- Setting the maximum USB current using a variable resistor on the board (1.0-3.2 A) 
-- As Zigbee chip was used E18-MS1PA2-PCB (CC2530 with an amplifier +20dBi), which allows it to be used in remote places, and at the same time act as a good router for other devices.
- - Designed to use AK-N-12 case.
-
-
-Data transfer via USB bus is available. This may be needed when connecting a USB modem to a router that does not know how to manage USB power, and the modem may need to be rebooted.
+Possibilities:
+- Power on/off by push button and via Zigbee network.
+- Automatic restart loop of the connected device with a single Zigbee command.
+- Monitoring of voltage and current supplied to the connected device, INA219 chip.
+- Setting the maximum USB current using a variable resistor on the board (1.0-3.2A)
+- For power management, a MIC2545A USB switch chip is used.
+- E18-MS1PA2-PCB (CC2530 with +20dBi amplifier) ​​was used as the Zigbee chip, which allows it to be used in remote places, and at the same time act as a good router for other devices.
+- USB data transfer is available. This may be needed when connecting a USB modem to a router that does not know how to manage USB power, and the modem may need to be rebooted.
+ - Designed for AK-N-12 case.
 
 
 ### Overview
