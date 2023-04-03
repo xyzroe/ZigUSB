@@ -1,12 +1,19 @@
 ZigUSB was developed as a device that allows you to control and monitor the power of a device connected via USB.
 
-Options available:
- - Power on/off at the push of a button and via Zigbee network.
- - Automatic restart cycle of the connected device using one Zigbee command.
- - Monitoring of voltage and current supplied to the connected device via USB.
- - Setting the maximum USB current using a variable resistor on the board.
- - As Zigbee chip was used E18-MS1PA2-PCB (CC2530 with an amplifier), which allows it to be used in remote places, and at the same time act as a good router for other devices.
+Using this device, you can remotely control the power of the USB port to turn on or off another device over Zigbee network.
+
+The most common application is the conversion of a "stupid" USB lamp into a "smart" one.
+
+Options available: 
+- Power on/off at the push of a button and via Zigbee network.
+- Automatic restart cycle of the connected device using one Zigbee command. 
+- Monitoring of voltage and current supplied to the connected device. 
+- Setting the maximum USB current using a variable resistor on the board (1.0-3.2 A) 
+- As Zigbee chip was used E18-MS1PA2-PCB (CC2530 with an amplifier +20dBi), which allows it to be used in remote places, and at the same time act as a good router for other devices.
  - Designed to use AK-N-12 case.
+
+
+Data transfer via USB bus is available. This may be needed when connecting a USB modem to a router that does not know how to manage USB power, and the modem may need to be rebooted.
 
 
 ### Overview
