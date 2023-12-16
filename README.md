@@ -76,7 +76,7 @@ Possibilities:
 
 ### Hardware files
 [Gerber](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Gerber_ZigUSB.zip)  
-[BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB.csv)  
+[BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB.csv)  or  [iBOM](https://xyzroe.cc/ZigUSB/hardware/zigbee_usb_power_switch_final_rev0.html)  🚀
 
 ### Firmware files
 [FW .hex and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
