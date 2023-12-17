@@ -1,0 +1,18 @@
+Board type: CC2530 + RFX2401 (configure PA control pins!!!)
+Device type: Router
+ Transmit enable (TXEN): P11, Receive enable (RXEN): P10
+Manufacturer name: xyzroe.cc
+Model ID: ZigUSB
+Update firmware's timestamp : 2023-12-02
+Status LED: P16, Sending reports
+Set default reporting interval (s): 30
+
+Output pins:
+P17: Output 1, GPIO, Pull-up (Role: Generic), Remember state
+P15: Output 2, TI INA219, Pull-up (Address (dec): 64, Resolution: 32V, 2A)
+P14: Output 3, I2C SCL/SPI CLK, Pull-up
+P36: Output 4, Internal temperature
+P37: Output 5, Uptime (sec)
+
+Input pins:
+P20: Input 1, GPIO, External pull-down, Link to out 1 (Bind command: On/Off)

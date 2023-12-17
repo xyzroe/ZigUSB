@@ -15,29 +15,58 @@ Possibilities:
  - Designed for AK-N-12 case.
 
 
-### Overview
+### Overview  
+  
+#### Touch version  
+<div align="center">
+<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_touch.png">
+<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom_touch.png">
+</div>  
 
+#### Button version  
 <div align="center">
 <img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top.png">
 <img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom.png">
 </div>
 
 ### Photos
+
+#### Touch version  
 <table>
 <tr>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_case.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_case_touch.jpeg">
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_case.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_case_touch.jpeg">
 </td>
 </tr>
 <tr>
 <td width="50%">
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb_touch.jpeg">
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_pcb.jpg">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_pcb_touch.jpeg">
+</td>
+</tr>
+</table>
+
+#### Button version  
+<table>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_case.jpeg">
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_case.jpeg">
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb.jpeg">
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_pcb.jpeg">
 </td>
 </tr>
 </table>
@@ -48,13 +77,20 @@ Possibilities:
 
 ### Schematic
 <div align="center"><img width="90%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Schematic_ZigUSB.png"></div>
+<div align="center"><img width="90%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Schematic_ZigUSB_touch.png"></div>
 
 
 
 
 ### PTVO Config 
-<div align="center"><img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/ptvo_1.png"></div>
 
+#### Touch version  
+<div align="center"><img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/ptvo_1_touch.png"></div>  
+
+#### Button version  
+<div align="center"><img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/ptvo_1.png"></div>  
+
+  
 #### zigbee2mqtt & Home Assistant overview
 
 <div align="center">
@@ -75,18 +111,24 @@ Possibilities:
 </table>
 
 ### Hardware files
+
+#### Touch version  
+[Gerber](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Gerber_ZigUSB_touch.zip)  
+[BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB_touch.csv)  or  [iBOM](https://xyzroe.cc/ZigUSB/hardware/iBOM_ZigUSB_touch.html)  🚀
+
+#### Button version  
 [Gerber](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/Gerber_ZigUSB.zip)  
 [BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB.csv)  or  [iBOM](https://xyzroe.cc/ZigUSB/hardware/zigbee_usb_power_switch_final_rev0.html)  🚀
 
 ### Firmware files
-[FW .hex and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
-[PTVO .ini file](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/firmware/ZigUSB.ini)  
-[PTVO .txt file](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/firmware/ZigUSB.txt)  
+[NEW z2m external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB_updated.js)
+[OLD z2m external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB.js)
+  
+[All FW .hex, PTVO .ini, .txt and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
 
-### Where to buy?
-
-<a href="https://www.tindie.com/stores/mind/?ref=offsite_badges&utm_source=sellers_xyzroe&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" height="120"></a>
-
+### Where to buy?  
+Tindie stopped supporting shipments from Ukraine, so now you can only buy on my partners’ website (shipping worldwide)  
+  
 <a href="https://mind.in.ua/"><img src="https://static.tildacdn.com/tild3433-3934-4565-b362-386238366331/logo_full.png" alt="Go to mind.in.ua" height="120"></a>
 
 
