@@ -41,12 +41,13 @@ Possibilities:
 <img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_case_touch.jpeg">
 </td>
 </tr>
-<tr>
-<td width="75%">
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb_touch.jpeg">
-</td>
-</tr>
 </table>
+
+<div align="center">
+<img width="70%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb_touch.jpeg">
+</div>
+
+
 
 #### Button version  
 <table>
