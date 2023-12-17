@@ -42,11 +42,8 @@ Possibilities:
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="75%">
 <img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_pcb_touch.jpeg">
-</td>
-<td>
-<img src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/back_pcb_touch.jpeg">
 </td>
 </tr>
 </table>
