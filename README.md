@@ -13,9 +13,10 @@ Possibilities:
 - E18-MS1PA2-PCB (CC2530 with +20dBi amplifier) ​​was used as the Zigbee chip, which allows it to be used in remote places, and at the same time act as a good router for other devices.
 - USB data transfer is available. This may be needed when connecting a USB modem to a router that does not know how to manage USB power, and the modem may need to be rebooted.
 - Designed for AK-N-12 case.
-- To re-pairing or reset to factory defaults - **Power on, wait 2 seconds, power off, repeat this cycle three times.**
-
-
+- To re-pairing or reset to factory defaults:  
+ **Power on, wait 2 seconds, power off, repeat this cycle three times.** 
+  
+  
 ### Overview  
   
 #### Touch version  
