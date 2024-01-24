@@ -14,7 +14,7 @@ Possibilities:
 - USB data transfer is available. This may be needed when connecting a USB modem to a router that does not know how to manage USB power, and the modem may need to be rebooted.
 - Designed for AK-N-12 case.
 - To re-pairing or reset to factory defaults:  
- **Power on, wait 2 seconds, power off, repeat this cycle three times.** 
+ **Power on (plug into power source), wait 2 seconds, power off (remove from power source), repeat this cycle three times.** 
   
   
 ### Overview  
