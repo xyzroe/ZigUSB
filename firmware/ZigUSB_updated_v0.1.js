@@ -149,7 +149,7 @@ fz.ptvo_switch_analog_input = {
         const cluster = 'genLevelCtrl';
         if (endpoint && (endpoint.supportsInputCluster(cluster) || endpoint.supportsOutputCluster(cluster))) {
             payload['brightness_' + name] = msg.data['presentValue'];
-        } else if (channel === 5) {
+        } else if (channel === 2) {
             payload['uptime' + '_' + name] = precisionRound(msg.data['presentValue'], 3);
         } else if (msg.data.hasOwnProperty('description')) {
             const data1 = msg.data['description'];
