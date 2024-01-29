@@ -336,8 +336,8 @@ function ptvo_on_off_config_exposes(epName) {
 
 
 const device = {
-    zigbeeModel: ['ZigUSB'],
-    model: 'ZigUSB',
+    zigbeeModel: ['USB_switch'],
+    model: 'ZigUSB v0.1',
     vendor: 'xyzroe.cc',
     description: '[Zigbee USB power monitor and switch](https://xyzroe.cc/ZigUSB)',
     fromZigbee: [fz.ignore_basic_report, fz.ptvo_on_off, fz.ptvo_switch_analog_input, fz.temperature, fz.ptvo_multistate_action, fz.legacy.ptvo_switch_buttons, fz.ptvo_on_off_config,],
