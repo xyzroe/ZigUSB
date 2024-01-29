@@ -205,24 +205,6 @@ fz.ptvo_switch_analog_input = {
     },
 };
 
-fz.ptvo_on_off = {
-    cluster: 'genOnOff',
-    type: ['attributeReport', 'readResponse'],
-    convert: (model, msg, publish, options, meta) => {
-        if (msg.data.hasOwnProperty('onOff')) {
-            const channel = msg.endpoint.ID;
-            const endpointName = `l${channel}`;
-            const binaryEndpoint = model.meta && model.meta.binaryEndpoints && model.meta.binaryEndpoints[endpointName];
-            const prefix = (binaryEndpoint) ? model.meta.binaryEndpoints[endpointName] : 'state';
-            const property = `${prefix}_${endpointName}`;
-        if (binaryEndpoint) {
-              return {[property]: msg.data['onOff'] === 1};
-            }
-            return {[property]: msg.data['onOff'] === 1 ? 'OFF' : 'ON'};
-        }
-    },
-  };
-
 tz.on_off_invert = {
     key: ['state', 'on_time', 'off_wait_time'],
     convertSet: async (entity, key, value, meta) => {
