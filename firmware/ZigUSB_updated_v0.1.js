@@ -341,7 +341,7 @@ const device = {
     vendor: 'xyzroe.cc',
     description: '[Zigbee USB power monitor and switch](https://xyzroe.cc/ZigUSB)',
     fromZigbee: [fz.ignore_basic_report, fz.ptvo_on_off, fz.ptvo_switch_analog_input, fz.temperature, fz.ptvo_multistate_action, fz.legacy.ptvo_switch_buttons, fz.ptvo_on_off_config,],
-    toZigbee: [tz.ptvo_switch_trigger, tz.on_off_invert, tz.ptvo_switch_analog_input, tz.ptvo_on_off_config,],
+    toZigbee: [tz.ptvo_switch_trigger, tz.ptvo_on_off, tz.ptvo_switch_analog_input, tz.ptvo_on_off_config,],
     exposes: [e.switch().withEndpoint('l1'),
       exposes.numeric('restart', ea.SET).withEndpoint('l1').withDescription('OFF time').withUnit('seconds'),
       ...ptvo_on_off_config_exposes('l1'),
