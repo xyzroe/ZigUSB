@@ -121,7 +121,7 @@ Possibilities:
 [BOM](https://raw.githubusercontent.com/xyzroe/ZigUSB/main/hardware/BOM_ZigUSB.csv)  or  [iBOM](https://xyzroe.cc/ZigUSB/hardware/zigbee_usb_power_switch_final_rev0.html)  🚀
 
 ### Firmware files
-[NEW z2m external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB_updated.js) 🎉 (for new z2m ext converter format)  
+[NEW z2m external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB_updated.js) 🎉 (for new z2m ext converter format)  **with NEW image**  
 [old z2m external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB.js)  
    
 [All FW .hex, PTVO .ini, .txt and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
