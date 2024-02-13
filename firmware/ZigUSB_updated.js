@@ -328,8 +328,6 @@ function ptvo_on_off_config_exposes(epName) {
     const features = [];
     features.push(exposes.enum('switch_type', exposes.access.ALL,
         getSortedList(switchTypesList)).withEndpoint(epName));
-    features.push(exposes.enum('switch_actions', exposes.access.ALL,
-        getSortedList(switchActionsList)).withEndpoint(epName));
     features.push(exposes.enum('link_to_output', exposes.access.ALL,
         getSortedList(inputLinkList)).withEndpoint(epName));
     features.push(exposes.enum('bind_command', exposes.access.ALL,
