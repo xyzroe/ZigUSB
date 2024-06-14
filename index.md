@@ -26,14 +26,14 @@ Possibilities:
   
 #### Touch version  
 <div align="center">
-<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_touch.png">
-<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom_touch.png">
+<img width="40%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top_touch.png">
+<img width="40%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom_touch.png">
 </div>  
 
 #### Button version  
 <div align="center">
-<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top.png">
-<img width="20%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom.png">
+<img width="40%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/top.png">
+<img width="40%" src="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/images/bottom.png">
 </div>
 
 ### Photos
