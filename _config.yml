@@ -1,2 +1,14 @@
-theme: jekyll-theme-cayman
-google_analytics: UA-203059197-1
+title: ZigUSB
+description: Zigbee USB power monitor and switch
+
+email: xyzroe@mind.in.ua
+avatar: https://avatars.githubusercontent.com/u/6440415?v=4
+favicon: https://xyzroe.cc/favicon.ico
+url: "https://xyzroe.cc"
+remote_theme: sylhare/Type-on-Strap
+cookie_consent: true
+google_analytics: G-5JP6L4L4DL
+color_theme: auto
+footer_text: '<a rel="xyzroe" href="http://xyzroe.cc">xyzroe</a> © 2022-2024<br /><a rel="license" href="https://raw.githubusercontent.com/xyzroe/ZigUSB/main/LICENSE">GNU General Public License v3.0</a>'
+plugins:
+  - jekyll-remote-theme
