@@ -132,7 +132,7 @@ Possibilities:
 [All FW .hex, PTVO .ini, .txt and converter .js files](https://github.com/xyzroe/ZigUSB/tree/main/firmware)  
   
 ### Verified supported Zigbee systems:  
-1. [zigbee2mqtt](https://www.zigbee2mqtt.io/) - FULL support, use [external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB_updated.js) ⭐⭐⭐⭐⭐
+1. [zigbee2mqtt](https://www.zigbee2mqtt.io/) - FULL support, no more need [external converter](https://github.com/xyzroe/ZigUSB/tree/main/firmware/ZigUSB_updated.js) ⭐⭐⭐⭐⭐
 2. [Homey](https://homey.app/) - FULL support, [more info](https://homey.app/a/cc.xyzroe.zigusb/). Thanks to [
 Arun Babu Neelicattu](https://github.com/abn) ⭐⭐⭐⭐⭐
 3. [HOMEd](https://wiki.homed.dev/page/HOMEd) - partial support. On-off control inversed. ⭐⭐⭐⭐
