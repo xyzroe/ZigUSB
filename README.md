@@ -1,7 +1,5 @@
 # ZigUSB
 
-## New version of this device - [ZigUSB C6](https://github.com/xyzroe/ZigUSB_C6)
-
 ZigUSB was developed as a device that allows you to control and monitor the power of a device connected via USB.
 
 Using this device, you can remotely control the power of the USB port to turn on or off the connected device. And also monitor the current voltage and current. And it's not a bad Zigbee network router.
